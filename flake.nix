@@ -4,7 +4,7 @@
   outputs = {self}: {
     templates = {
         repo.path = ./repo;
-        flake.path = ./flake;
+        nix.path = ./nix;
     };
   };
 }
